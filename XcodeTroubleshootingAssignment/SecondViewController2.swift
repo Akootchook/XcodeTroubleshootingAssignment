@@ -17,9 +17,11 @@ class SecondViewController2: UIViewController {
     }
     
 
-    @IBAction func firstButtonPressed(_ sender: Any) {
-    }
-    /*
+    @IBAction func firstButtonPressed(_ sender: Any)
+    
+    {
+    
+    
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
@@ -27,17 +29,27 @@ class SecondViewController2: UIViewController {
         // Get the new view controller using segue.destination.
         // Pass the selected object to the new view controller.
     }
-    */
-    @IBAction func secondButtonPressed(_ sender: Any) {
+    
+ 
+ @IBAction func secondButtonPressed(_ sender: Any) {
     }
     
     
-    @IBAction func changeColorButtonPressed(_ sender: Any) {
-    } self.view.backgroundcolor = color.blue
+    @IBAction func changeColorButtonPressed(_ sender: Any)
     
+    else
+        
+    {
+    self.view.backgroundColor = UIColor.blue
     
-    
+        BlueLabel.text="blue"
+        
+        
 }
-@IBAction func changeLabelTextButtonPressed(_ sender: Any) {
-    firstLabel.text = I feel confident with the Xcode troubleshooting process"
+    
+    
+func changeLabelTextButtonPressed(_ sender: Any)
+
+{
+    firstLabel.text = I; feel confident with the Xcode troubleshooting process"
 }
